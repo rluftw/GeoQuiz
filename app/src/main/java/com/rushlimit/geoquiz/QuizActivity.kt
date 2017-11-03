@@ -8,14 +8,14 @@ import android.view.Gravity
 import android.widget.Button
 import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class QuizActivity : AppCompatActivity() {
 
     lateinit var trueButton: Button
     lateinit var falseButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_quiz)
 
         trueButton = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
